@@ -1,0 +1,127 @@
+<VAST version="2.0">
+<Ad id="601364">
+<InLine>
+<AdSystem>ads.thijsb</AdSystem>
+<AdTitle>ads.thijsb inline linear test</AdTitle>
+<Description>ads.thijsb inline linear test</Description>
+<Error>http://ads.thijsb.myinstance.com/tracking/error</Error>
+<Impression>
+http://ads.thijsb.myinstance.com/tracking/impression
+</Impression>
+<Creatives>
+<Creative AdID="601364">
+<Linear>
+<Duration>00:00:30</Duration>
+<TrackingEvents>
+<Tracking event="creativeView">
+http://ads.thijsb.myinstance.com/tracking/creativeView
+</Tracking>
+<Tracking event="start">http://ads.thijsb.myinstance.com/tracking/start</Tracking>
+<Tracking event="midpoint">http://ads.thijsb.myinstance.com/tracking/midpoint</Tracking>
+<Tracking event="firstQuartile">
+http://ads.thijsb.myinstance.com/tracking/firstQuartile
+</Tracking>
+<Tracking event="thirdQuartile">
+http://ads.thijsb.myinstance.com/tracking/thirdQuartile
+</Tracking>
+<Tracking event="complete">http://ads.thijsb.myinstance.com/tracking/complete</Tracking>
+</TrackingEvents>
+<VideoClicks>
+<ClickThrough>http://ads.thijsb.myinstance.com/</ClickThrough>
+<ClickTracking>http://ads.thijsb.myinstance.com/tracking/click</ClickTracking>
+</VideoClicks>
+<MediaFiles>
+<MediaFile delivery="progressive" type="video/mp4" width="1920" height="1080" scalable="true" maintainAspectRatio="true">
+http://d2yflcerrzvsib.cloudfront.net/song.mp4
+</MediaFile>
+</MediaFiles>
+</Linear>
+</Creative>
+<Creative AdID="601361">
+<Linear>
+<Duration>00:00:05</Duration>
+<TrackingEvents>
+<Tracking event="creativeView">
+http://ads.thijsb.myinstance.com/tracking/creativeView
+</Tracking>
+<Tracking event="start">http://ads.thijsb.myinstance.com/tracking/start</Tracking>
+<Tracking event="midpoint">http://ads.thijsb.myinstance.com/tracking/midpoint</Tracking>
+<Tracking event="firstQuartile">
+http://ads.thijsb.myinstance.com/tracking/firstQuartile
+</Tracking>
+<Tracking event="thirdQuartile">
+http://ads.thijsb.myinstance.com/tracking/thirdQuartile
+</Tracking>
+<Tracking event="complete">http://ads.thijsb.myinstance.com/tracking/complete</Tracking>
+</TrackingEvents>
+<VideoClicks>
+<ClickThrough>http://ads.thijsb.myinstance.com/</ClickThrough>
+<ClickTracking>http://ads.thijsb.myinstance.com/tracking/click</ClickTracking>
+</VideoClicks>
+<MediaFiles>
+<MediaFile delivery="progressive" type="video/mp4" width="1920" height="1080" scalable="true" maintainAspectRatio="true">
+http://ads.thijsb.myinstance.com/ads/ad-asset-4.mp4
+</MediaFile>
+</MediaFiles>
+</Linear>
+</Creative>
+<Creative AdID="601363">
+<Linear>
+<Duration>00:00:10</Duration>
+<TrackingEvents>
+<Tracking event="creativeView">
+http://ads.thijsb.myinstance.com/tracking/creativeView
+</Tracking>
+<Tracking event="start">http://ads.thijsb.myinstance.com/tracking/start</Tracking>
+<Tracking event="midpoint">http://ads.thijsb.myinstance.com/tracking/midpoint</Tracking>
+<Tracking event="firstQuartile">
+http://ads.thijsb.myinstance.com/tracking/firstQuartile
+</Tracking>
+<Tracking event="thirdQuartile">
+http://ads.thijsb.myinstance.com/tracking/thirdQuartile
+</Tracking>
+<Tracking event="complete">http://ads.thijsb.myinstance.com/tracking/complete</Tracking>
+</TrackingEvents>
+<VideoClicks>
+<ClickThrough>http://ads.thijsb.myinstance.com/</ClickThrough>
+<ClickTracking>http://ads.thijsb.myinstance.com/tracking/click</ClickTracking>
+</VideoClicks>
+<MediaFiles>
+<MediaFile delivery="progressive" type="video/mp4" width="1920" height="1080" scalable="true" maintainAspectRatio="true">
+http://ads.thijsb.myinstance.com/ads/ad-asset-3.mp4
+</MediaFile>
+</MediaFiles>
+</Linear>
+</Creative>
+<Creative AdID="601365">
+<Linear>
+<Duration>00:00:20</Duration>
+<TrackingEvents>
+<Tracking event="creativeView">
+http://ads.thijsb.myinstance.com/tracking/creativeView
+</Tracking>
+<Tracking event="start">http://ads.thijsb.myinstance.com/tracking/start</Tracking>
+<Tracking event="midpoint">http://ads.thijsb.myinstance.com/tracking/midpoint</Tracking>
+<Tracking event="firstQuartile">
+http://ads.thijsb.myinstance.com/tracking/firstQuartile
+</Tracking>
+<Tracking event="thirdQuartile">
+http://ads.thijsb.myinstance.com/tracking/thirdQuartile
+</Tracking>
+<Tracking event="complete">http://ads.thijsb.myinstance.com/tracking/complete</Tracking>
+</TrackingEvents>
+<VideoClicks>
+<ClickThrough>http://ads.thijsb.myinstance.com/</ClickThrough>
+<ClickTracking>http://ads.thijsb.myinstance.com/tracking/click</ClickTracking>
+</VideoClicks>
+<MediaFiles>
+<MediaFile delivery="progressive" type="video/mp4" width="1920" height="1080" scalable="true" maintainAspectRatio="true">
+http://ads.thijsb.myinstance.com/ads/ad-asset-2.mp4
+</MediaFile>
+</MediaFiles>
+</Linear>
+</Creative>
+</Creatives>
+</InLine>
+</Ad>
+</VAST>
