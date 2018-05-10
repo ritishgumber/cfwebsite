@@ -28,6 +28,7 @@
   },
   "bundleDependencies": false,
   "dependencies": {
+    "aws-sdk": "^2.228.1",
     "ejs": "^2.4.1",
     "express": "^4.13.4",
     "request": "^2.83.0"

@@ -1,27 +1,32 @@
+<!DOCTYPE html>
 <html>
-<html>
+
 <head>
-<meta charset="ISO-8859-1">
-<meta charset="utf-8">
-<meta name="viewport" content="height=device-height,width=device-width, initial-scale=1">
-<title>AWS Test Website</title>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script type="text/javascript" src="http://malsup.github.com/jquery.form.js"></script>
-<script src="https://sdk.amazonaws.com/js/aws-sdk-2.172.0.min.js"></script>
-<script src="/js/app.js"></script>
+    <meta charset=utf-8 />
+    <title>videojs-contrib-hls embed</title>
+    <!--
+  Uses the latest versions of video.js and videojs-contrib-hls.
+  To use specific versions, please change the URLs to the form:
+  <link href="https://unpkg.com/video.js@5.16.0/dist/video-js.css" rel="stylesheet">
+  <script src="https://unpkg.com/video.js@5.16.0/dist/video.js"></script>
+  <script src="https://unpkg.com/videojs-contrib-hls@4.1.1/dist/videojs-contrib-hls.js"></script>
+  -->
+    <link href="https://unpkg.com/video.js/dist/video-js.css" rel="stylesheet">
+    <script src="https://unpkg.com/video.js/dist/video.js"></script>
+    <script src="https://unpkg.com/videojs-contrib-hls/dist/videojs-contrib-hls.js"></script>
 </head>
+
 <body>
-
-<form id="fileUploadForm">
-    <input type="file" id="file"></input>
-    <input type="submit">
-</form>
-
-
+    <h1>Video.js Example Embed</h1>
+    <video id="my_video_1" class="video-js vjs-default-skin" controls preload="auto" width="640" height="268" data-setup='{}'>
+    </video>
+    <script>
+    const player = videojs('my_video_1');
+    player.src({
+        src: 'https://wsww.5b7dfbe8.ngrok.io/19d869a5-52de-4e95-8c95-60865c442333/hls/introduction.m3u8',
+        type: 'application/x-mpegURL'
+    });
+    </script>
 </body>
 
-
 </html>
-
-
-

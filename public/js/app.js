@@ -1,29 +1,11 @@
-AWS.config.update({
-    accessKeyId : 'AKIAJ3K5YYG7L4OYFKOA' ,
-    secretAccessKey : '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'
-});
-AWS.config.region = 'us-east-1';
-$(document).ready(function() { 
-$("#fileUploadForm").ajaxForm(function(e) {
-var bucket = new AWS.S3({params: {Bucket: 'ritishtestwebsite', ACL: 'public-read'}});
-var fileChooser = document.getElementById('file');
-var file = fileChooser.files[0];
+// document.cookie="hello=world; domain=d3olzo7cb19gm7.cloudfront.net;";
 
-console.log(file.name);
-if (file) {
+// function setCookie(name,value,domain) {
+//     var expires = "";
+//     document.cookie = name + "=" + (value || "")  + expires + ";";
+// }
 
-var params = {Key: file.name, ContentType: file.type, Body: file};
-bucket.upload(params).on('httpUploadProgress', function(evt) {
-//console.log("Uploaded :: " + parseInt((evt.loaded * 100) / evt.total)+'%');
-if(parseInt((evt.loaded * 100) / evt.total) > 25){
-console.log( parseInt((evt.loaded * 100) / evt.total));
-}
-console.log('width',parseInt((evt.loaded * 100) / evt.total)+'%');
+// setCookie("hello","world","d3olzo7cb19gm7.cloudfront.net")
 
-}).send(function(err, data) {
-console.log(data);
-});
-}
+document.cookie="ritish-CloudFront-Key-Pair-Id=APKAJCBS2W3H6IWEVIYA;domain=d3olzo7cb19gm7.cloudfront.net"
 
-return false;
-});})
